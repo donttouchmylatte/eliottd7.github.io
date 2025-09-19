@@ -1,0 +1,15 @@
+
+:root {
+	--color-bg: #fff;
+}
+
+
+.home-wrapper {
+	display: grid;
+	grid-template-areas:
+		"particles particles title",
+		"particles particles subtitle",
+		"blurb blurb photo",
+		"tiles tiles tiles",
+		"footer footer footer";
+}
