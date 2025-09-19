@@ -7,9 +7,34 @@
 .home-wrapper {
 	display: grid;
 	grid-template-areas:
-		"particles particles title",
+		"particles particles nametitle",
 		"particles particles subtitle",
 		"blurb blurb photo",
 		"tiles tiles tiles",
 		"footer footer footer";
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 0px;
+	background-color: slateblue;
+}
+
+.particles {
+	grid-area: particles;
+}
+.nametitle {
+	grid-area: nametitle;
+}
+.subtitle {
+	grid-area: subtitle;
+}
+.blurb {
+	grid-area: blurb;
+}
+.photo {
+	grid-area: photo;
+}
+.tiles {
+	grid-area: tiles;
+}
+.footer {
+	grid-area: footer;
 }
